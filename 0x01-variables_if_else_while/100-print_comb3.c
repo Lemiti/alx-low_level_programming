@@ -14,10 +14,13 @@ int main(void)
 	{
 		for (y = 49; y <= 57; y++)
 		{
-			if (x < y)
+			if (x < y || x == y)
 			{
-				putchar(x);
-				putchar(y);
+				if (x < y)
+				{
+					putchar(x);
+					putchar(y);
+				}
 				putchar(44);
 				putchar(32);
 			}
