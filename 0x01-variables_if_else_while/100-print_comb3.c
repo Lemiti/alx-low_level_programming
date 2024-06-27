@@ -14,7 +14,7 @@ int main(void)
 	{
 		for (y = 49; y <= 57; y++)
 		{
-			if (x < y || x == y)
+			if (x < y || x == 8)
 			{
 				if (x < y)
 				{
