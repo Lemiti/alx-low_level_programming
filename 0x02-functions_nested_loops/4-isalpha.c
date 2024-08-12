@@ -1,4 +1,4 @@
-#include <main.h>
+#include <stdio.h>
 /**
  * _isalpha - Checks if the
  *@c: this is intiger value
