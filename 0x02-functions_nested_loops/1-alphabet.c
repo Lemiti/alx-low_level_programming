@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * print_alphabet - Prints alphabets from a-z
  *
- * Return:0 on success
  */
 
 void print_alphabet(void)
 {
 	char c;
+
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		_putchar(c);
