@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main - Entry point
@@ -6,15 +6,12 @@
  * Return:0 on success
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	int i = 97;
-
-	for (; i < 97; i++)
+	char c;
+	for (c = 'a'; c <= 'z'; c++)
 	{
-		_putchar(i);
+		_putchar(c);
 	}
-	_putchar(10);
-
-	return (0);
+	_putchar('\n');
 }
