@@ -30,5 +30,7 @@ void jack_bauer(void)
                         }
 			h2 += 1;
 		}while(h2<=9);
+
+		h2 = 0;
 	}
 }
