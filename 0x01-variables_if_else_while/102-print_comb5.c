@@ -1,9 +1,11 @@
 #include <stdio.h>
+
 /**
  * main - Entry point
  *
  * Return:0 on success
  */
+
 int main(void)
 {
 	int i, j;
@@ -17,6 +19,7 @@ int main(void)
 			putchar(32);
 			putchar((j / 10) + '0');
 			putchar((j % 10) + '0');
+
 			if (!( i == 99 && j == 98))
 			{
 				putchar(',');
