@@ -8,5 +8,14 @@
 
 int _isupper(int c)
 {
-	if (
+	int i;
+
+	for (i = 65; i <= 90; i++)
+	{
+		if (i == c)
+		{
+			return (1);
+		}
+	}
+	return (0);
 }
