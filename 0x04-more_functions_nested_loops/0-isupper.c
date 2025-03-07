@@ -2,7 +2,7 @@
 
 /**
  * _isupper - checks wether the inputed value is capital or not
- * @c: input variable 
+ * @c: input variable
  * Return:1 if c is upper case 0 otherwise
  */
 
