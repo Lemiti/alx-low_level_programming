@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_diagonal - prints 
+ * print_diagonal - prints
  * @n: diagonal line
  */
 void print_diagonal(int n)
@@ -16,7 +16,6 @@ void print_diagonal(int n)
 	{
 		for (i = 0; i < y; i++)
 		{
-			
 			_putchar(' ');
 		}
 		_putchar('\\');
