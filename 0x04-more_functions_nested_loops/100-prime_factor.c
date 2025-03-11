@@ -20,7 +20,7 @@ int main(void)
 	{
 		if (num % i == 0)
 		{
-			for (prime = 1; prime <= i / 2 + 1; prime ++)
+			for (prime = 1; prime <= i / 2 + 1; prime++)
 			{
 				if (i % prime != 0 && prime == i / 2 + 1)
 				{
@@ -34,7 +34,7 @@ int main(void)
 		}
 
 	}
-	
+
 	printf("%lu\n", maxprime);
 
 	return (0);
